@@ -1,0 +1,422 @@
+# ============================================
+# Intelligent Pesticide Sprinkler System
+# Git Ignore File
+# ============================================
+
+# ============================================
+# Python Backend
+# ============================================
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Backend specific
+backend/uploads/*.jpg
+backend/uploads/*.jpeg
+backend/uploads/*.png
+backend/uploads/*.gif
+backend/models/*.h5
+backend/models/*.pkl
+backend/models/*.pb
+!backend/uploads/.gitkeep
+!backend/models/.gitkeep
+
+# ============================================
+# Flutter / Dart Mobile App
+# ============================================
+# Flutter/Dart build directories
+mobile_app/build/
+mobile_app/.dart_tool/
+mobile_app/.flutter-plugins
+mobile_app/.flutter-plugins-dependencies
+mobile_app/.packages
+mobile_app/.pub-cache/
+mobile_app/.pub/
+mobile_app/pubspec.lock
+
+# Android related
+mobile_app/android/**/gradle-wrapper.jar
+mobile_app/android/.gradle
+mobile_app/android/captures/
+mobile_app/android/gradlew
+mobile_app/android/gradlew.bat
+mobile_app/android/local.properties
+mobile_app/android/**/GeneratedPluginRegistrant.java
+mobile_app/android/key.properties
+mobile_app/android/*.jks
+mobile_app/android/app/debug
+mobile_app/android/app/profile
+mobile_app/android/app/release
+
+# iOS/XCode related
+mobile_app/ios/**/*.mode1v3
+mobile_app/ios/**/*.mode2v3
+mobile_app/ios/**/*.moved-aside
+mobile_app/ios/**/*.pbxuser
+mobile_app/ios/**/*.perspectivev3
+mobile_app/ios/**/*sync/
+mobile_app/ios/**/.sconsign.dblite
+mobile_app/ios/**/.tags*
+mobile_app/ios/**/.vagrant/
+mobile_app/ios/**/DerivedData/
+mobile_app/ios/**/Icon?
+mobile_app/ios/**/Pods/
+mobile_app/ios/**/.symlinks/
+mobile_app/ios/**/profile
+mobile_app/ios/**/xcuserdata
+mobile_app/ios/.generated/
+mobile_app/ios/Flutter/App.framework
+mobile_app/ios/Flutter/Flutter.framework
+mobile_app/ios/Flutter/Flutter.podspec
+mobile_app/ios/Flutter/Generated.xcconfig
+mobile_app/ios/Flutter/ephemeral/
+mobile_app/ios/Flutter/app.flx
+mobile_app/ios/Flutter/app.zip
+mobile_app/ios/Flutter/flutter_assets/
+mobile_app/ios/Flutter/flutter_export_environment.sh
+mobile_app/ios/ServiceDefinitions.json
+mobile_app/ios/Runner/GeneratedPluginRegistrant.*
+mobile_app/ios/Podfile.lock
+
+# macOS
+mobile_app/macos/Flutter/GeneratedPluginRegistrant.swift
+mobile_app/macos/Flutter/ephemeral
+mobile_app/macos/Pods/
+mobile_app/macos/Podfile.lock
+
+# Windows
+mobile_app/windows/flutter/generated_plugin_registrant.cc
+mobile_app/windows/flutter/generated_plugin_registrant.h
+mobile_app/windows/flutter/generated_plugins.cmake
+
+# Linux
+mobile_app/linux/flutter/generated_plugin_registrant.cc
+mobile_app/linux/flutter/generated_plugin_registrant.h
+mobile_app/linux/flutter/generated_plugins.cmake
+
+# Web related
+mobile_app/lib/generated_plugin_registrant.dart
+
+# Obfuscation related
+mobile_app/app.*.symbols
+mobile_app/app.*.map.json
+
+# Android Studio will place build artifacts here
+mobile_app/android/app/debug
+mobile_app/android/app/profile
+mobile_app/android/app/release
+
+# ============================================
+# Arduino / ESP32 Firmware
+# ============================================
+# Build artifacts
+firmware/build/
+firmware/*.elf
+firmware/*.bin
+firmware/*.hex
+firmware/*.eep
+firmware/*.map
+
+# Arduino IDE
+*.hex
+*.eep
+*.bin
+*.elf
+*.o
+*.a
+*.d
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# WiFi credentials and sensitive configs
+firmware/config.h
+firmware/secrets.h
+firmware/credentials.h
+
+# ============================================
+# IDEs and Editors
+# ============================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# IntelliJ / PyCharm / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iws
+out/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+.#*
+
+# ============================================
+# Operating System Files
+# ============================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.nfs*
+
+# ============================================
+# Logs and Databases
+# ============================================
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# ============================================
+# Environment and Secrets
+# ============================================
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Secrets and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+config.json
+
+# API Keys and Tokens
+*api_key*
+*apikey*
+*secret*
+*password*
+*token*
+
+# ============================================
+# Temporary and Backup Files
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*.swp
+*~
+
+# ============================================
+# Docker
+# ============================================
+*.env.docker
+docker-compose.override.yml
+
+# ============================================
+# Testing and Coverage
+# ============================================
+coverage/
+.nyc_output/
+
+# ============================================
+# Documentation Build
+# ============================================
+/site
+/docs/_build
+/docs/site
+
+# ============================================
+# Misc
+# ============================================
+# Ignore all lock files except package managers you want to track
+# (uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# pubspec.lock
+
+# Compiled binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
